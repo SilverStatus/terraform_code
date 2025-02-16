@@ -3,18 +3,12 @@ variable "filename" {
 }
 
 variable "content" {
-    default = "My favorite pet name is ${random_pet.my-pet.id}"
+    default = "My favorite pet name is "
 }
 
-variable "prefix" {
-    default = "S"
-}
 
 variable "length" {
-    default = 4
+    default = 1
 }
 
-variable "separator" {
-    default = "-"
-  
-}
+
