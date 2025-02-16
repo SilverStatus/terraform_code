@@ -3,7 +3,7 @@ variable "filename" {
 }
 
 variable "content" {
-    default = "Test!!!"
+    default = "My favorite pet name is ${random_pet.my-pet.id}"
 }
 
 variable "prefix" {
