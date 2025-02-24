@@ -6,3 +6,7 @@ resource "local_file" "pet" {
 resource "random_pet" "my-pet" {
     length = var.length
 }
+
+output "pet" {
+    value = random_pet.my-pet.id
+}
